@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
 
-      {/* <meta name="application-name" content="PWA App" />
+      <meta name="application-name" content="PWA App" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content="PWA App" />
@@ -53,12 +53,12 @@ export default function Document() {
         color="#5bbad5"
       />
       <link rel="shortcut icon" href="/favicon.ico" />
-      <link
+      {/* <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-      />
+      /> */}
 
-      <meta name="twitter:card" content="summary" />
+      {/* <meta name="twitter:card" content="summary" />
       <meta name="twitter:url" content="https://yourdomain.com" />
       <meta name="twitter:title" content="PWA App" />
       <meta name="twitter:description" content="Best PWA App in the world" />
